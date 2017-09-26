@@ -1,3 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://hannabrunlof.se%{REQUEST_URI} [NE,L,R]
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
