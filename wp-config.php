@@ -31,18 +31,6 @@ define('DB_PASSWORD', 'root');
 /** MySQL-server */
 define('DB_HOST', 'localhost');
 
-/** INSTÄLLNINGAR LIVE **/
-/** ONE **/
-
-// define('DB_NAME', 'hannabrunlof_se');
-
-// define('DB_USER', 'hannabrunlof_se');
-
-// define('DB_PASSWORD', 'NMgfuzZR');
-
-// define('DB_HOST', 'hannabrunlof.se.mysql');
-
-
 /** Teckenkodning för tabellerna i databasen. */
 define('DB_CHARSET', 'utf8mb4');
 
@@ -77,18 +65,18 @@ define('NONCE_SALT',       'q(NL*,HLk~azCM-D]8c f9>3W1?),>]@EX->LDu}]cZj:QC53+jL
  */
 $table_prefix  = 'wp_';
 
-/** 
- * För utvecklare: WordPress felsökningsläge. 
- * 
- * Ändra detta till true för att aktivera meddelanden under utveckling. 
- * Det är rekommderat att man som tilläggsskapare och temaskapare använder WP_DEBUG 
- * i sin utvecklingsmiljö. 
+/**
+ * För utvecklare: WordPress felsökningsläge.
  *
- * För information om andra konstanter som kan användas för felsökning, 
- * se dokumentationen. 
- * 
+ * Ändra detta till true för att aktivera meddelanden under utveckling.
+ * Det är rekommderat att man som tilläggsskapare och temaskapare använder WP_DEBUG
+ * i sin utvecklingsmiljö.
+ *
+ * För information om andra konstanter som kan användas för felsökning,
+ * se dokumentationen.
+ *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
- */ 
+ */
 define('WP_DEBUG', false);
 
 /* Det var allt, sluta redigera här! Blogga på. */
