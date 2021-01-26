@@ -19,7 +19,7 @@
 	    	echo '<div class="item' . (($key == 0) ? ' active' : '') . '">';
 	    	echo '<div class="overlay">';
 	    	echo '<a href="' . $value['link'] . '">';
-	    	echo '<img src="' . wp_get_attachment_image_src( $value['slideshow-image'], 'start-size' )[0] . '">';
+	    	echo '<img src="' . wp_get_attachment_image_src( $value['slideshow-image'], 'full' )[0] . '">';
 	    	echo '</a>';
 	    	echo '</div>';
 	    	echo '</div>';

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Galleri-sida 
+ * Template Name: Galleri-sida
  **/
 ?>
 
@@ -13,9 +13,10 @@
             <?= get_field('ingress'); ?>
         </div>
     </div>
-    <?php the_content(); ?>
+    <div class="col-md-12">
+        <?php the_content(); ?>
+    </div>
 
 <?php endwhile; endif; ?>
 
 <?php get_footer(); ?>
-

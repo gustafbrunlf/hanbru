@@ -135,7 +135,7 @@ a, a:hover, a:focus {
 	background-repeat: none;
 	text-shadow: none;
 	opacity: 1;
-} 
+}
 
 .right-control, .left-control {
 	position: absolute;
@@ -307,21 +307,11 @@ a, a:hover, a:focus {
 	color: #000;
 }
 
-.image-wrapper:hover .title-wrapper {
-	opacity: 1;
-}
-
 .title-wrapper {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
-	opacity: 0;
 	background: rgba(255, 255, 255, 0.8);
-
-	-webkit-transition: opacity 0.5s;
-    -ms-transition: opacity 0.5s;
-    -o-transition: opacity 0.5s;
-	transition: opacity 0.5s;
 }
 
 .title-wrapper h2 {
@@ -504,7 +494,3 @@ footer {
 .wpcf7-response-output {
 	border: none !important;
 }
-
-
-
-

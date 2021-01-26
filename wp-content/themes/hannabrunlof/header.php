@@ -61,7 +61,7 @@
 				 	}
 				}
 				?>
-				<li><a href="https://www.instagram.com/hbrunlof/" class="fa fa-instagram" target="_blank"></a></li>
+				<li><a href="https://www.instagram.com/hbrunlofwindell/" class="fa fa-instagram" target="_blank"></a></li>
 				<li><a href="https://www.facebook.com/hanna.brunlof?fref=ts" class="fa fa-facebook-square" target="_blank"></a></li>
 			</ul>
 	  	</div>
